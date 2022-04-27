@@ -1,0 +1,112 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+* {
+    --font-title: 'Passion One', cursive;
+    --font-text: 'Sriracha', cursive;
+    margin: 0px 0px;
+}
+header {
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+header  h1 {
+    font-family: var(--font-title);
+    font-weight: 400;
+    font-size: 10vw;
+}
+
+header  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+header h2 > a {
+    color: white;
+    text-decoration: none;
+}
+
+header h2 > a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: var(--font-text);    
+}
+
+article {
+    font-size: 4vw;
+}
+
+section > p {
+    margin: 0px;
+    padding: 30px;
+    padding-bottom: 100px;
+}
+
+section {   
+    width: auto;
+    height: auto;
+    padding:  10% 2% 5% 3%;
+}
+
+section > p.foto {
+    margin: 0px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.486);
+    width: 48vw; 
+}
+
+section.foto {   
+    width: auto;
+    height: auto;
+    padding:  15% 2% 15% 3%;
+    
+}
+
+#estrofe-cont2 {
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;  
+    width: auto;
+    height: auto;
+    padding: auto;
+}
+
+#estrofe-cont5 {  
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: auto;
+    height: auto;
+    padding: auto;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    margin: auto;
+    padding: 9px;
+}
+
+footer a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+
+}
+footer a:hover {
+    text-decoration: underline;
+}
